@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A1A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎮 Tecla do Mouse R7"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✅ Passo 1: Permissão concedida\n✅ Passo 2: Configurações → Acessibilidade → Ative este app\n✅ Passo 3: Abra seu jogo e o botão 🔫 aparece!"
+        android:textSize="16sp"
+        android:textColor="#AAAAAA"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"/>
+
+</LinearLayout>
