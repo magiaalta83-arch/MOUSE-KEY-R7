@@ -3,6 +3,7 @@
     package="com.seu.meumouse">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -31,6 +32,13 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/acessibilidade_config" />
         </service>
+
+        <receiver
+            android:name=".MeuServicoAcessibilidade"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.seu.meumouse.COMANDO" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
-
